@@ -2,7 +2,7 @@ package com.ilp.entity;
 
 import java.util.ArrayList;
 
-public class Product {
+public abstract class Product {
 
 	private String productCode;
 	private String productName;

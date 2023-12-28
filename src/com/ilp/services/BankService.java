@@ -344,7 +344,7 @@ public class BankService {
 		System.out.println("*********************************************************************************************");
 		for (Account account : customer.getAccount()) {
 			if(account.getAccountType().equalsIgnoreCase("Savings Max Account")) {
-				System.out.println(customer.getCustomerCode()+"              "+customer.getCustomerName()+"               "+account.getAccountType()+"                 "+account.getAcccountBalance());
+				System.out.println(customer.getCustomerCode()+"                     "+customer.getCustomerName()+"                     "+account.getAccountType()+"                 "+account.getAcccountBalance());
 				System.out.println("services provided:");
 				 for (Services service : account.getProduct().getServices()) {
 			            System.out.println("- " + service.getServiceName() + " (" + service.getServiceCode() + ")");
