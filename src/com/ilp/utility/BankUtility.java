@@ -25,7 +25,7 @@ public class BankUtility {
 		char mainMenuRepeat;
 		ArrayList<Services> serviceList = new ArrayList<Services>();
 		ArrayList<Product> productList = new ArrayList<Product>();
-		ArrayList<Services> productServiceList = new ArrayList<Services>();
+		//ArrayList<Services> productServiceList = new ArrayList<Services>();
 		ArrayList<Account> accountList = new ArrayList<Account>();
 		Customer customer = null;
 		do {
